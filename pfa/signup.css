@@ -1,0 +1,125 @@
+.entete{
+    background-color: transparent;
+    height: 100px;
+    padding-left: 20px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nom{
+    display: flex;
+    width: 200px;
+    order: 1;
+}
+
+.signup{
+    background-color: green;
+    width: 150px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 5px;
+    order: 2;
+}
+
+
+body{
+    background-color: gray;
+    font-family: 'Poppins';
+    background-image: url("rm378-08.jpg");
+        background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.formulaire{
+    background-color: white;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    border-radius: 50px;
+
+}
+
+form{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+#text{
+    width: 300px;
+    height: 40px;
+    border: solid;
+    border-color: gray;
+    border-width: 2px;
+    font-size: large;
+    margin-bottom: 7px;
+
+
+}
+#buttom{
+    border: solid;
+    width: 300px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-size: large;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
+
+#button:hover {
+    background-color: rgb(163, 80, 1);
+}
+
+#button:active {
+
+    animation: pulse 0.3s ease;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#gender{
+    width: 140px;
+    height: 40px;
+    border: solid;
+    border-color: gray;
+    border-width: 2px;
+    font-size: large;
+
+
+}
+
+
+input,select{
+    border-radius: 10px;
+}
+select{
+    margin-bottom: 7px;
+}
+

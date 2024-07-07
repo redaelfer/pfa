@@ -1,0 +1,228 @@
+body{
+    font-family: 'Poppins';
+        background-image: url("rm378-08.jpg");
+            background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .topbar{
+        height: 60px;
+        background-color: transparent;
+        color: aliceblue;
+    
+    }
+    
+
+    .middle{
+        width: 1000px;
+        margin: auto;
+        min-height: 400px;
+        margin-top: 80px;
+
+    
+    
+    }
+    
+    #profitepicture{
+        width: 150px;
+        margin-top: -90px;
+        border-radius: 50%;
+        border: solid 2px white;
+    
+    }
+    #menub{
+        width: 180px;
+        display: inline-block;
+        margin: 2px;
+    
+        
+    
+    
+    }
+    #friendimg{
+        width: 40px;
+        float: left;
+        margin: 8px;
+        border: solid 2px black;
+        border-radius: 50px;
+    
+    
+    
+    }
+    
+    #partiehaut{
+        
+        background-color: white;
+        text-align:center;
+        color:#0098ff;
+        margin-bottom: 20px;
+        height: 200px;
+    }
+
+    #partiebas{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #friendbar{
+    
+        background-color: white;
+        min-height: 400px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #0098ff;
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 1000px;
+    
+    
+    }
+    
+    #friends{
+        
+
+        flex: 0 0 calc(50% - 20px); 
+    padding: 10px;
+    box-sizing: border-box;
+    
+
+    }
+
+    #friend-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: rgb(3, 56, 105);
+    width: 100%;
+    padding: 10px;
+    }
+
+
+    button {
+        font-size: 16px;
+        font-weight: 400;
+        height: 45px;
+        width: 200px;
+        border: 0px solid;
+        background-image: linear-gradient(45deg,blue,#00f0a0,blue);
+        background-size: 500% 400%;
+        color: white;
+        border-radius: 50px;
+        transition: 0.6s all;
+        margin: auto;
+       }
+       
+       button:hover {
+        background-position: 75% 50%;
+        transform: perspective(100px)
+       }
+       
+       .button1:active {
+        transform: scale(0.95);
+        transition: 0.1s;
+       }
+
+
+       .invite{
+        display: grid;
+        place-items: center;
+    }
+
+    
+
+
+
+
+#messagerie {
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+#msg {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    overflow-y: scroll;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    max-width: 80%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+    word-wrap: break-word;
+    border:2px;
+    background-color: #0098ff;
+    margin-bottom: 5px;
+}
+
+.sender{
+    font-size: 12px;
+    color: rgb(63, 63, 63);
+    text-decoration: underline;
+}
+.content{
+    font-size: 25px;
+}
+.message .date {
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    margin-bottom:2px ;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+}
+
+form textarea {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 10px;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    height: 40px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    height: 40px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+}

@@ -1,0 +1,178 @@
+body{
+    font-family: 'Poppins';
+        background-image: url("rm378-08.jpg");
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .topbar{
+        height: 60px;
+        background-color: transparent;
+        color: aliceblue;
+    
+    }
+    
+  
+    .middle{
+        width: 1000px;
+        margin: auto;
+        min-height: 400px;
+        margin-top: 80px;
+
+    
+    
+    }
+    
+    #profitepicture{
+        width: 150px;
+        margin-top: -90px;
+        border-radius: 50%;
+        border: solid 2px white;
+    
+    }
+    #menub{
+        width: 180px;
+        display: inline-block;
+        margin: 2px;
+        transition: color 0.3s;
+    }
+    #menub:hover {
+        color: #000;
+    }
+    #friendimg{
+        width: 75px;
+        float: left;
+        margin: 8px;
+        border: solid 2px black;
+        border-radius: 50px;
+    
+    
+    
+    }
+    
+    #partiehaut{
+        
+        background-color: white;
+        text-align:center;
+        color:#0098ff;
+        margin-bottom: 20px;
+        height: 190px;
+        border-radius: 20px;
+    }
+
+    #partiebas{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #friendbar{
+    
+        background-color: white;
+        min-height: 400px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #0098ff;
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 1000px;
+    
+    
+    }
+    
+    #friends{
+        
+
+        flex: 0 0 calc(50% - 20px); 
+    padding: 10px;
+    box-sizing: border-box;
+    
+
+    }
+
+    #friend-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: rgb(3, 56, 105);
+    width: 100%;
+    padding: 10px;
+    }
+
+
+    button {
+        font-size: 16px;
+        font-weight: 400;
+        height: 45px;
+        width: 200px;
+        border: 0px solid;
+        background-image: linear-gradient(45deg,blue,#00f0a0,blue);
+        background-size: 500% 400%;
+        color: white;
+        border-radius: 50px;
+        transition: 0.6s all;
+        margin: auto;
+       }
+       
+       button:hover {
+        background-position: 75% 50%;
+        transform: perspective(100px)
+       }
+       
+       .button1:active {
+        transform: scale(0.95);
+        transition: 0.1s;
+       }
+
+
+       .invite{
+        display: inline-flex;
+        place-items: center;
+    }
+
+    
+    a {
+        color: inherit; 
+        text-decoration: none; 
+    }
+
+    label {
+        font-size: 18px;
+    }
+    select {
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        max-width: 240px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+   
+    table {
+        width: 90%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+
+    table, th, td {
+        border: 1px solid #ccc;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f9f9f9;
+        font-weight: bold;
+    }
+
+    td.description {
+        width: 30%;
+        background-color: #f9f9f9;
+    }
